@@ -1,0 +1,22 @@
+.navbar {
+  background-color: white;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 7vh;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  margin: 0px 10px;
+}
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+}

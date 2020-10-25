@@ -1,0 +1,23 @@
+:root {
+  --submit-btn-height: 8vh;
+}
+.delivery-side {
+  min-height: 93vh;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f3f7;
+  padding-bottom: calc(var(--submit-btn-height) + 30px);
+}
+.submit-btn {
+  background-color: white;
+  width: calc(100vw * 2 / 5);
+  position: fixed;
+  height: var(--submit-btn-height);
+  top: 92vh;
+  z-index: 10;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}

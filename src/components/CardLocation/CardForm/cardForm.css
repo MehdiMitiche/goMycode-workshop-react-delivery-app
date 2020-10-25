@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+}
+.item {
+  flex: 1;
+  margin: 6px;
+}
+.order-details {
+  font-weight: 600;
+}
+.ant-input:focus {
+  border-bottom-color: #6c63ff;
+  -webkit-box-shadow: 0 0 0 0px rgba(87, 168, 233, 0.2);
+  box-shadow: 0 0 0 0px rgba(87, 168, 233, 0.2);
+}
+.ant-input:hover {
+  border-bottom-color: #6c63ff;
+}
+.switch {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
