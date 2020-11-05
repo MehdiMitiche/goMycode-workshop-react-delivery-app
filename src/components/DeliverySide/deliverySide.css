@@ -21,3 +21,6 @@
   flex-direction: row-reverse;
   align-items: center;
 }
+.add-dropoff-btn {
+  margin-top: 32px;
+}

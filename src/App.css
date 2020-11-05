@@ -3,3 +3,8 @@
   top: 7vh;
   display: flex;
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
